@@ -97,7 +97,7 @@ a{
     float:left;
     padding: 20px 0px 20px 0px;
     font:25px "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*    font-weight: bold;*/
+    font-weight: bold;
     text-align: center
 }
 .postTitle a:hover{

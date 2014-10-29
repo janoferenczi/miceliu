@@ -56,6 +56,6 @@ class AppController extends Controller {
     );
     
     public function beforeFilter() {
-        $this->Auth->allow('index','show');
+        $this->Auth->allow('index','show','add');
     }
 }
