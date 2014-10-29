@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:#000;
+}
+
+body{
+    background: url('../img/mainBackground.jpg') fixed center no-repeat;
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#mainLayout{
+    width: 900px;
+    height: auto;
+    float:left;
+    background: #fff;
+    margin:20px 0px 20px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#mainTitle{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 900px;
+}
+
+#banner{
+    width: 900px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+#menuHolder{
+    width: 900px;
+    float:left;
+    border-bottom: 1px solid #000;
+}
+
+#menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float:left;
+    
+}
+
+#menu li{
+    margin:0px 20px;
+    float:left;
+    list-style: none;
+}
+
+#menu li a{
+   font:18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   /*font-weight: bold;*/
+}
+
+#menu li a:hover{
+    color:#C66717;
+}
+
+#mainContent{
+    width: 660px;
+    float:left;
+    padding: 0px 20px 20px 20px;
+    border-right: 1px solid #000;
+}
+
+#footer{
+    width: 900px;
+    padding: 10px 0px;
+    text-align: center;
+    background: #000;
+    float:left;
+    color:#fff;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 18px;
+}
+
+.post{
+    width: 660px;
+    float:left;
+}
+
+.postTitle{
+    width: 660px;
+    float:left;
+    padding: 20px 0px 20px 0px;
+    font:25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-weight: bold;*/
+    text-align: center
+}
+.postTitle a:hover{
+    color:#C66717;
+}
+.postBody{
+    width: 660px;
+    float:left;
+    text-align: justify;
+}
+
+.continue{
+    width:620px;
+    font-size: 18px;
+    color:#0000ff;
+    float:left;
+    padding-right: 20px;
+    text-align: right;
+    
+}
+.continue:hover{
+    color:#C66717;
+}
+
+.submit input{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.sidebar{
+    width: 198px;
+    height: auto;
+    float:left;
+}
